@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: ecoessentials_salesforce
+    database: jarenhatch
+    schema: ecoessentials_salesforce
+    tables:
+      - name: marketing_emails
+
+  - name: ecoessentials_transactional_db
+    database: jarenhatch
+    schema: ecoessentials_transactional_db
+    tables:
+      - name: customer
+      - name: order
+        identifier: ORDER
+        quoting:
+          identifier: true
+      - name: order_line
+      - name: product
+      - name: promotional_campaign

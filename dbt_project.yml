@@ -40,3 +40,12 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+    oliver:
+      +materialized: table
+      +schema: dw_oliver
+    insurance: 
+      +materialized: table
+      +schema: dw_insurance
+    ecoessentials:
+      +materialized: table
+      +schema: dw_ecoessentials
