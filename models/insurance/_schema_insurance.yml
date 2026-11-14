@@ -31,7 +31,7 @@ models:
               arguments:
                 values:
                   - "New Claim"
-                  - "Claim"
+                  - "Claim Status"
                   - "Policy Change"
                   - "Coverage Info"
                   - "Billing Issue"
